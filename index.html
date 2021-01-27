@@ -69,7 +69,7 @@ function adsInfo(event){
         
     }
     else if (command === "get-ccpa-base-data") {
-        var anonCookie = getCookie('adsk-ccpa-guid') || false,
+        var anonCookie = getCookie('adsk_ccpa_guid') || false,
             optSelects = getCookie('adsk_ccpa') || false,
             codifiedAnon = anonCookie, // escape(anonCookie),
             codifiedOpt = optSelects; // escape(optCookie)
